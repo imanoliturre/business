@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bussines Plan System</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Business Plan System</h1>
+    </header>
+    <hr>
+    <nav class="menu">
+        <ul class="menu-flex">
+            <li><a href="./">Inicio</a></li>
+            <li><a href="./mision.html">Misiòn</a></li>
+            <li><a href="./objetivos.html">Objetivos</a></li>
+            <li><a href="./metodologia.html">Metodologìa</a></li>
+            <li><a href="./resultados.html">Resultados</a></li>
+            <li><a href="./contactenos.html">Contàctenos</a></li>
+        </ul>
+    </nav>
+
+    <section class="principal">
+        <article class="principal-contenido">
+            <h2>El sistema más utilizado por directivos</h2>
+            <div class="principal-icono">
+                <img src="./imagenes/locationon.svg" alt="">
+                <p>
+                    en sòlo unos minutos y sin ningùn conocimiento tècnico previo, le permitirà obtener su presupuesto
+                    de ingreso - gastos - cuentas de resultados y objetivos detallados al nivel que usted desee.
+                    Asimismo le proporcionarà el control, seguimiento, proyecciòn y simulaciòn por cualquier concepto.
+                </p>
+            </div>
+            <a href="#" class="boton">Contactar</a>
+        </article>
+    </section>
+    <main class="sombra">
+        <section class="servicios">
+            <article class="servicio">
+                <h3>Misiòn</h3>
+                <div class="servicio-icono">
+                    <img src="./imagenes/home_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>
+                <p>
+                    Estudios recientes demuestran que una de las principales causas en la diferenciaciòn de rendimientos
+                    en organizaciones del mismo tamaño, es la escasa o deficiente capacidad de comercializaciòn. Para
+                    incrementar dicha capacidad y por lo tantosu competitividad, ...
+                </p>
+                <a href="./mision.html" class="boton">Leer màs</a>
+            </article>
+            <article class="servicio">
+                <h3>Objetivos</h3>
+                <div class="servicio-icono">
+                    <img src="./imagenes/star_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>
+                <p>
+                    Aportar al responsable de gestiòn un instrumento ràpido, flexible pero sobre todo sencillo de
+                    utilizar, que le permita cuantificar todos los factores implicados directa o inderectamente en los
+                    resultados y evaluar de forma instantànea el impacto de sus desiciones.
+                </p>
+                <a href="./objetivos.html" class="boton">Leer màs</a>
+            </article>
+            <article class="servicio">
+                <h3>Metodologìa</h3>
+                <div class="servicio-icono">
+                    <img src="./imagenes/radio_button_checked_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>
+                la metodologìa es la siguiente:
+                <dl>
+                    <dt>*Definimos nuestro modelo de negocios</dt>
+                    <dl>El sistema nos va guiando y permite acceder a una serie de casos ya preparados de diferentes
+                        sectores ...</dl>
+                </dl>
+                <a href="./metodologia.html" class="boton">Leer màs</a>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2>Resultados</h2>
+                <p>
+                    Aportar al responsable de gestiòn un instrumento ràpido, flexible pero sobre todo sencillo de
+                    utilizar, que le permita cuantificar todos los factores implicados directa o inderectamente en os
+                    resultados y evaluar de forma instantànea el impacto de sus desiciones
+                </p>
+            </article>
+        </section>
+
+        <section class="formulario">
+            <article>
+                <h2>Contáctenos</h2>
+                <form action="mailto:infobusiness.com" method="post">
+                    <fieldset>
+                        <legend>Complete los campos</legend>
+                        <table class="contenedor-campos">
+                            <tr class="campo">
+                                <td><label for="nombre">NOMBRE *</label></td>
+                                <td>
+                                    <input class="input-text" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"
+                                        required />
+                                </td>
+                            </tr>
+                            <tr class="campo">
+                                <td><label for="direccion">DIRECCIÔN *</label></td>
+                                <td>
+                                    <input class="input-text" type="text" name="direccion" id="direccion"
+                                        placeholder="Ingrese su direcciòn" />
+                                </td>
+                            </tr>
+                            <tr class="campo">
+                                <td><label for="telefono">TELÈFONO *</label></td>
+                                <td>
+                                    <input class="input-text" type="text" name="telefono" id="telefono"
+                                        placeholder="Ingrese su telèfono" />
+                                </td>
+                            </tr>
+                            <tr class="campo">
+                                <td><label for="mail">MAIL *</label></td>
+                                <td>
+                                    <input class="input-text" type="email" name="mail" id="mail" placeholder="usuari@servidor.com" />
+                                </td>
+                            </tr>
+                            <tr class="campo">
+                                <td><label for="localidad">CAMPOS *</label></td>
+                                <td>
+                                    <input class="input-text" type="text" name="localidad" id="localidad"
+                                        placeholder="Ingrese su localidad" />
+                                </td>
+                            </tr>
+                            <tr class="campo">
+                                <td><label for="provincia">PROVINCIA *</label></td>
+                                <td>
+                                    <input class="input-text" type="text" name="provincia" placeholder="ingrese su provincia" />
+                                </td>
+                            </tr>
+                            <tr class="campos">
+                                <td><label for="sexo">SEXO *</label></td>
+                                <td>
+                                    <input class="input-text" type="radio" name="masculino" id="sexo" value="masculino" />Masculino<br />
+                                    <input class="input-text" type="radio" name="femenino" id="sexo" value="femenino" />Femenino<br />
+                                </td>
+                            </tr>
+                            <tr class="campos">
+                                <td><label for="formadepago">FORMA DE PAGO *</label></td>
+                                <td>
+                                    <select name="formapago" id="formadepago">
+                                        <option value="">Tarjeta</option>
+                                        <option value="">Depòsito</option>
+                                        <option value="">Rapipago / Pago Fàcil</option>
+                                    </select>
+                            </tr>
+                            <tr class="campos">
+                                <td>
+                                    <input class="input-text" type="submit" value="Enviar" />
+                                </td>
+                                <td>
+                                    <input class="input-text" type="reset" value="Cancelar" />
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Todos los derechos reservados. 2024
+        </p>
+    </footer>
+</body>
+
+</html>

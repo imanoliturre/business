@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bussines Plan System</title>
+</head>
+
+<body>
+    <header>
+        <h1>Business Plan System</h1>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="./">Inicio</a></li>
+            <li><a href="mision.html">Misiòn</a></li>
+            <li><a href="objetivos.html">Objetivos</a></li>
+            <li><a href="metodologia.html">Metodologìa</a></li>
+            <li><a href="resultados.html">Resultados</a></li>
+            <li><a href="contactenos.html">Contàctenos</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h2>Contáctenos</h2>
+            <form action="mailto:infobusiness.com" method="post">
+                <table border="1" width="100">
+                    <tr>
+                        <td>NOMBRE</td>
+                        <td><input type="text" name="nombre" placeholder="Ingrese su nombre" required /></td>
+                    </tr>
+                    <tr>
+                        <td>DIRECCIÒN</td>
+                        <td><input type="text" name="direccion" placeholder="Ingrese su direcciòn" /></td>
+                    </tr>
+                    <tr>
+                        <td>TELÈFONO</td>
+                        <td><input type="text" name="telefono" placeholder="Ingrese su telèfono" /></td>
+                    </tr>
+                    <tr>
+                        <td>MAIL</td>
+                        <td><input type="email" name="mail" placeholder="usuari@servidor.com" /></td>
+                    </tr>
+                    <tr>
+                        <td>LOCALIDAD</td>
+                        <td><input type="text" name="localidad" placeholder="Ingrese su localidad" /></td>
+                    </tr>
+                    <tr>
+                        <td>PROVINCIA</td>
+                        <td><input type="text" name="provincia" placeholder="ingrese su provincia" /></td>
+                    </tr>
+                    <tr>
+                        <td>SEXO</td>
+                        <td><input type="radio" name="masculino" value="masculino" />Masculino<br />
+                            <input type="radio" name="femenino" value="femenino" />Femenino<br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>FORMA DE PAGO</td>
+                        <td>
+                            <select name="formapago">
+                                <option value="">Tarjeta</option>
+                                <option value="">Depòsito</option>
+                                <option value="">Rapipago / Pago Fàcil</option>
+                            </select>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Enviar" /></td>
+                        <td><input type="reset" value="Cancelar" /></td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <p>
+            Todos los derechos reservados. 2024
+        </p>
+    </footer>
+</body>
+
+</html>
